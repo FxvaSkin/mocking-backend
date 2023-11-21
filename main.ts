@@ -2,9 +2,7 @@ import Fastify from 'fastify'
 
 import { nanoid } from 'nanoid'
 
-const fastify = Fastify({
-  logger: true,
-})
+const fastify = Fastify()
 
 interface User {
   id: string
