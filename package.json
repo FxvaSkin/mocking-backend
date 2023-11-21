@@ -1,0 +1,16 @@
+{
+  "name": "mocking-backend",
+  "module": "main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun main.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "nanoid": "^5.0.3"
+  }
+}
